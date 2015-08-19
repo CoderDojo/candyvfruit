@@ -1,16 +1,62 @@
 <html>
 	<head>
-		
-		<link href='external/jquery-ui.css'  rel='stylesheet' type='text/css'>
-		<link href='external/jquery-ui.theme.css'  rel='stylesheet' type='text/css'>
-		<link href='external/jquery-ui.structure.css'  rel='stylesheet' type='text/css'>
+		<title>Candy v Fruit</title>
+		<link href='external/jquery-ui.css'  rel='stylesheet' 
+		type='text/css'>
+		<link href='external/jquery-ui.theme.css'  rel='stylesheet' 
+		type='text/css'>
+		<link href='external/jquery-ui.structure.css'  
+		rel='stylesheet' type='text/css'>
 		
 		<script src="external/jquery.js"></script>
 		<script src="external/jquery-ui.min.js"></script>
+		
+		<link href='css/style.css' rel='stylesheet' type='text/css'>
+		<script src='js/game.js'></script>
+		
+		<link href='http://fonts.googleapis.com/css?family=Rock+Salt' rel='stylesheet' type='text/css'>
 
 	</head>
 	
-	<body>		
+	<body>
+		<div id="gameDiv">
+			<div class="welcome" id="welcome">
+				<div class="welcomeHeading">
+					<h2>Candy v Fruit - Multiplayer Game</h2>
+				</div>
+				<div class="addPlayer">
+					<input placeholder="Your name" class="playername"
+					id="playerName"></input>
+					<button onclick="startGame()" class="start">Start
+					</button>
+				</div>
+			</div>
+			<div class="topPanel">
+				<div id="heading">
+					<span class="heading-candy">Candy</span>
+					<span class="heading-v">v</span>
+					<span class="heading-fruit">Fruit</span>
+				</div>
+				<div id="logo">
+					<img src="images/coderdojologo.png"></img>
+				</div>
+				<div class="score">
+					<div class="infoTitle" id="infoTitle">
+						TIMEOUT (SEC)
+					</div>
+					<div id="info"></div>
+				</div>
+			</div>
+			<div id="icons">
+			</div>
+			<div id="game">
+			</div>
+			<div id="players">
+				<div id="playersHeader">Players</div>
+				<div id="playersList"></div>
+			</div>
+			
+		</div>		
 		
 	</body>
 </html>

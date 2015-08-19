@@ -1,0 +1,168 @@
+body {
+	background: #7BADEC;
+	padding-left: 5%;
+	padding-right: 5%;
+	margin-bottom: 0px;
+	height: 100%;
+	font-family: Comic Sans MS;
+	color: #ffffff;
+}
+
+div#heading {
+	margin: 10px;
+	margin-top: 20px;
+	float: left;
+	font-weight: bolder;
+	text-align: center;
+	font-family: 'Rock Salt', cursive;
+}
+
+span.heading-candy {
+	color: #D21316;
+	font-size: 40px;
+}
+
+span.heading-v {
+	color: #ffffff;
+	font-size: 25px;
+}
+
+span.heading-fruit {
+	color: #F5C414;
+	font-size: 40px;
+}
+
+div#logo {
+	width: 20%;
+	margin-left: 150px;
+	padding-top: 40px;
+	float: left;
+}
+
+div.score {
+	margin: 10px;
+	float: right;
+	border: 5px solid #6c5529;
+	background: #17412F;
+	height: 80px;
+	width: 20%;
+	text-align: center;
+	box-shadow: 8px 8px 5px #6c5529;
+}
+
+div.infoTitle {
+	font-size: 20px;
+}
+
+div#info {
+	font-size: 30px;
+}
+
+div#icons {
+	height: 50px;
+	width: 450px;
+	border: 3px solid #6C5529;
+	margin-left: 20px;
+	margin-bottom: 10px;
+	margin-top: 20px;
+	box-shadow: 8px 8px 5px #444444;
+	position: relative;
+	float: left;
+	background: #444444;
+}
+
+div#game {
+	float: left;
+	padding: 20px;
+	width: 800px;
+}
+
+div#players {
+	width: 250px;
+	border: 2px solid #503400;
+	float: right;
+}
+
+div#playersHeader {
+	text-align: center;
+	background: #503400;
+	font-size: 30px;
+	font-variant: small-caps;
+}
+
+.welcome {
+	margin-left: 5px;
+	margin-right: 5px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	width: 90%;
+	height: 90%;
+	background: #17412F;
+	position: absolute;
+	z-index: 20;
+	padding: 10px;
+	border-radius: 10px;
+}
+
+.welcomeHeading {
+	width: 100%;
+	background: #503400;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border-radius: 5px;
+}
+
+.welcomeHeading h2 {
+	text-align: center;
+}
+
+.addPlayer {
+	width: 300px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 30px;
+}
+
+.playername {
+	border: none;
+	border-bottom: 1px solid #fafafa;
+	color: #fafafa;
+	background: none;
+	width: 200px;
+	font-size: 15px;
+}
+
+button.start {
+	background: red;
+	color: #fafafa;
+	padding: 5px;
+	border-radius: 5px;
+	width: 90px;
+	border: 1px solid #fafafa;
+}
+
+img.gameIcon {
+	border: 2px solid black;
+	float: left;
+	width: 45px;
+	height: 45;
+}
+
+div.row {
+	width: 790px;
+	height: 40px;
+	z-index: 100;
+}
+
+div.col {
+	width: 35px;
+	height: 35px;
+	border: 1px solid #7BADEA;
+	float: left;
+	background: #503400;
+}
+
+img.gridIcon {
+	width: 100%;
+	height: 100%;
+}
