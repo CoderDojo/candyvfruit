@@ -1,0 +1,44 @@
+[
+	{
+		"id": "candy0",
+		"file": "images/candy0.png",
+		"type": "CANDY",
+		"score": -10
+	},
+	{
+		"id": "candy1",
+		"file": "images/candy1.png",
+		"type": "CANDY",
+		"score" : -20
+	},
+	{
+		"id": "candy2",
+		"file": "images/candy2.png",
+		"type": "CANDY",
+		"score": -40
+	},
+	{
+		"id": "candy4",
+		"file": "images/candy4.png",
+		"type": "CANDY",
+		"score": -50	
+	},
+	{
+		"id": "fruit1",
+		"file": "images/fruit1.png",
+		"type": "FRUIT",
+		"score": 80
+	},
+	{
+		"id": "fruit2",
+		"file": "images/fruit2.png",
+		"type": "FRUIT",
+		"score": 120
+	},
+	{
+		"id": "coder",
+		"file": "images/coder.png",
+		"type": "EASTEREGG",
+		"score": 0
+	}
+]
